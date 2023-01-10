@@ -1,0 +1,66 @@
+<!DOCTYPE html>  <!--lets the browser know the document type is html. Every thing in a html page is contained in the html tag-->
+<html lang="en"> <!--lets the browser know the language in which the page is (i.e, english here)-->
+<head><!-- head element is a container for metadata and is placed between the html tag and the body tag-->
+    <title>Test page</title><!--Title of the website-->
+    <!--The style tag is used to add style to the html page-->
+    <style>
+        *{
+            margin: 10px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .ABlock{
+            margin: 20px;
+            line-height: 2em;
+            border: 1px double black;
+        }
+        .BBlock{
+            font-size: 1.5em;
+        }
+        a{
+            text-decoration: none;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body><!--the part of the page which will contain all the visible components when we visit the page-->
+    <!--the are 6 different heading tags used to write different sizes of  headings-->
+    <div class="ABlock">
+        <ol>
+        <li><h1>Boiler plate</h1></li>
+        <li><h2>Boiler plate</h1></li>
+        <li><h3>Boiler plate</h1></li>
+        <li><h4>Boiler plate</h1></li>
+        <li><h5>Boiler plate</h1></li>
+        <li><h6>Boiler plate</h1></li>
+        </ol>
+    </div>
+    <div class="BBlock"><!--the div tag is used to  create containers-->
+    <p><!--paragraph tag-->
+        <b>Lorem</b><!--the b tag is used to create bold text--> ipsum dolor sit amet consectetur, adipisicing elit. Recusandae fugit minus neque voluptatem magnam delectus  in quasi? Natus repellat provident illo aspernatur placeat, itaque unde ipsum facilis, inventore sint quasi.<br><!--used to create a break line--> 
+       <i>Lorem</i><!--the i tag is used to create itlic text--> ipsum dolor sit amet consectetur adipisicing elit. Amet, magni exercitationem perferendis facere quisquam alias? Officia dolorum id, nostrum <br><u><!--the u tag is used to create underlined text-->accusantium</u> culpa corrupti eos at consequatur nobis maxime veritatis error eum?
+    </p>
+</div>
+    <form> <!--used to create a html form-->
+        <fieldset><!--The fieldset tag groups related fields in an HTML form-->
+            <legend><h3>FORM</h3></legend><!--The legend tag defines a caption for the fieldset element-->
+        <label for="fname">First name:</label><!--The label tag provides a label for the corrosponding element--><br>
+        <input type="text" id="fname" name="fname" placeholder="firt name"><!--the input tag is used to create input fields--><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="last name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="example@email.com"><br>
+
+        <label for="pwd">Password :</label><br>
+        <input type=”password” id="pwd" name=”pwd”/>
+        <br><br><input type="submit" value="Submit">
+</fieldset>
+      </form>
+      <ul><!--the ul tag is used to create un ordered list-->
+        <li><a href="#">Link</a></li><!--the li tag is used to create list items-->
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul> 
+</body>
+</html>
