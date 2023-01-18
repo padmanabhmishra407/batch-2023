@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(173, 0, 0);
+  background: radial-gradient(circle, rgb(173, 0, 0) 0%, rgb(16, 85, 0) 50%, rgb(22, 0, 79) 100%);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+body h1 {
+  text-align: center;
+  font-family: "Creepster", cursive;
+  letter-spacing: 0.5em;
+  font-size: 3em;
+  letter-spacing: 0.3em;
+}
+
+nav {
+  margin: 0 2em;
+}
+nav button {
+  background: rgba(99, 99, 99, 0.836);
+  width: 100px;
+  border-radius: 1em;
+  border: none;
+  padding: 0.4em;
+  margin: 0.8em 0;
+  color: white;
+}
+
+.under {
+  background: rgba(58, 58, 58, 0.774);
+}
+
+.Img {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: rgba(39, 37, 37, 0.664);
+}
+
+p, h3 {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.05em;
+  padding: 1em;
+}
+
+h3 {
+  letter-spacing: 0.2em;
+  font-size: 2em;
+}
+
+.floatR {
+  float: right;
+}
+
+.floatL {
+  float: left;
+}
+
+.ori {
+  margin-top: 5em;
+}/*# sourceMappingURL=about.css.map */

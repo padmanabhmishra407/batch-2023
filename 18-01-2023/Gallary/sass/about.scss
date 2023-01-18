@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import './mixin';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    @include body();
+    min-width: 100vw;
+min-height: 100vh;
+    h1{
+        @include heading();
+        letter-spacing: .3em;
+    }
+}
+
+nav{
+    margin: 0 2em;
+    button{
+       @include buttons();
+    }
+}
+.under{
+    background:rgba(58, 58, 58, 0.774);
+}
+
+.Img{
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color:rgba(39, 37, 37, 0.664);
+    
+}
+p,h3{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .05em;
+    padding: 1em;
+}
+h3{
+letter-spacing: .2em;
+font-size: 2em;
+}
+.floatR{
+    float: right;
+}
+.floatL{
+    float: left;
+}
+.ori{
+    margin-top: 5em;
+}

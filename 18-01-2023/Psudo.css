@@ -1,0 +1,35 @@
+*{
+    margin: .1em .2em;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: rgb(198, 246, 250); */
+    /* background: rgb(182, 204, 206); */
+    background-image: linear-gradient(45deg, rgb(198, 246, 250), rgb(182, 204, 206));
+
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:rgb(2, 105, 2);
+}
+a::selection{
+    background: rgb(248, 146, 87);
+}
+th::selection{
+    background: rgb(248, 146, 87);
+}
+td::selection{
+    background: rgb(248, 146, 87);
+}
+i::selection{
+    background: rgb(248, 146, 87);
+}
+a::after{
+    content:" ~";
+}
+a:hover{
+    color: rgb(43, 196, 94);
+}
