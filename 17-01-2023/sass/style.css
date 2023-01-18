@@ -1,0 +1,19 @@
+header, .contact {
+  background: lightblue;
+  height: 100vh;
+}
+header button, .contact button {
+  background: rgb(0, 162, 255);
+  border-radius: 1em;
+}
+header button:hover, .contact button:hover {
+  background: rgb(0, 93, 124);
+}
+header button::after, .contact button::after {
+  content: "Helloooo";
+}
+
+.contact button {
+  background: rgb(0, 162, 255);
+  border-radius: 1em;
+}/*# sourceMappingURL=style.css.map */
