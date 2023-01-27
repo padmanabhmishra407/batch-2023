@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      .glow {
+        filter: drop-shadow(0 -6mm 10mm #f4cf00) contrast(2);
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      img {
+        max-width: 50%;
+        margin: 5em;
+      }
+      button {
+        padding: 2em;
+        margin: 0.5em;
+        border: none;
+        border-radius: 5em;
+        background: linear-gradient(#faab00, #fffb00);
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="./light-bulb .png" alt="" />
+    <button onclick="Light()" id="click">ON</button>
+    <script src="./bulbe.js"></script>
+  </body>
+</html>
